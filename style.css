@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap");
+
+body {
+background-color: #F7F7F2;
+color: #575f7d;
+line-height: 1.6;
+font-size: 16px;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.btn {
+  background-color: #899878;
+  padding: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #b8d8ba;
+}
+
+h1, h2 {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1 {
+  color: #22333b;
+}
+
+h2 {
+  color: #22333b;
+}
+
+p {
+  font-family: 'Montserrat', serif;
+  text-align: justify;
+  color: #516F95;
+  padding-bottom: 18px;
+}
+
+.card {
+  width: 600px;
+  background-color: white;
+  margin: 24px auto;
+  padding: 40px;
+  box-shadow: 5px 5px 5px rgba(0,0,0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+#img-circle {
+  height: 180px;
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline i {
+  font-size: 30px;
+  margin: 8px;
+  font-size: 40px;
+  color: #899878;
+}
+
+.list-inline i:hover {
+  color: #b8d8ba;
+}
+
+ul {
+  padding-left: 0px;
+}
